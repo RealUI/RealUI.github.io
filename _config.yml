@@ -1,0 +1,31 @@
+title: RealUI
+tagline: Interface suite for World of Warcraft
+description: "Interface suite for World of Warcraft"
+url: https://github.com/RealUI
+baseurl: /
+
+author:
+  name: 'Gethe'
+  url: https://twitter.com/gethe88
+
+markdown: redcarpet
+highlighter: pygments
+
+exclude: []
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+version:          1.0.0
+
+github:
+  repo:           https://github.com/RealUI/RealUI
+
+# GitHub defaults - not configurable
+safe: true
+#lsi: false
+#source: .
