@@ -25,7 +25,8 @@ html {
 
 body {
   color: #848482;
-  background-color: #000000;
+  background: url("/assets/images/Idle.jpg") top left no-repeat;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -113,6 +114,7 @@ tbody tr:nth-child(odd) th {
   border: 1px solid #444;
 }
 
+/*
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -123,6 +125,7 @@ tbody tr:nth-child(odd) th {
     font-size: 20px;
   }
 }
+*/
 
 /*
  * Messages
@@ -156,7 +159,38 @@ tbody tr:nth-child(odd) th {
 .gist-meta {
   background-color: #222 !important;
 }
-/*
+
+header {
+  width: 50%;
+  position: relative;
+  height: 3em;
+  margin: 0 auto;
+}
+
+.header-nav {
+  height: 100%;
+}
+.header-nav-item {
+  height: 100%;
+  width: 4.5rem;
+  text-align: center;
+  float: left;
+  border: thin;
+}
+a.header-nav-item:hover,
+a.header-nav-item:focus {
+  border-style: solid;
+  border-width: thin;
+  border-color: blue;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+.header-nav-item.active {
+  border-style: solid;
+  border-width: thin;
+  border-color: blue;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+  /*
  * Sidebar
  *
  * Flexible banner for housing site name, intro, and "footer" content. Starts
@@ -234,22 +268,24 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
+  background: rgba(23, 23, 23, 0.75);
   padding-top:    4rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    width: 50%;
+    //max-width: 38rem;
+    //margin-left: 20rem;
+    //margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    //margin-left: 22rem;
+    //margin-right: 4rem;
   }
 }
 
