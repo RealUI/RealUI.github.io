@@ -1,2 +1,6 @@
+## Sublime Text ##
+*.sublime-workspace
+
+## Meta ##
 _drafts/
 _site/

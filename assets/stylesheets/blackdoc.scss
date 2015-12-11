@@ -18,6 +18,11 @@
  *
  * Update the foundational and global aspects of the page.
  */
+ 
+@font-face {
+  font-family: "Roboto";
+  src:  url("{{ site.baseurl }}assets/fonts/Roboto-Regular.woff") format("woff")
+}
 
 html {
   font-family: Roboto, Helvetica, Arial, sans-serif;
