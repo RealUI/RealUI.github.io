@@ -3,35 +3,38 @@ tagline: Interface suite for World of Warcraft
 description: "Interface suite for World of Warcraft"
 url: https://github.com/RealUI
 baseurl: /
+version: 1.0.0
 
 author:
-  name: 'Gethe'
-  url: https://twitter.com/gethe88
+  name: 'RealUI'
+  url: https://twitter.com/realuiwow
 
 excerpt_separator: <!--more-->
 paginate: 5
 
-exclude: []
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+repository: RealUI/RealUI.github.io
+exclude: [README.md, Gemfile, Gemfile.lock, serve.bat]
+theme: jekyll-theme-midnight
 
-version: 1.0.0
-
-github:
-  repo: https://github.com/RealUI/RealUI
+# GitHub defaults - configurable
+# github: [metadata]
+# encoding: UTF-8
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+# future: true
+# jailed: false
+# theme: jekyll-theme-primer
+# gfm_quirks: paragraph_end
 
 # GitHub defaults - not configurable
-#lsi: false
+lsi: false
 safe: true
-#source: .
+source: .
 #incremental: false
-#highlighter: rouge
+highlighter: rouge
 gist:
   noscript: false
-
-theme: jekyll-theme-midnight
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
