@@ -1,20 +1,19 @@
 title: RealUI
-tagline: Interface suite for World of Warcraft
 description: "Interface suite for World of Warcraft"
 url: https://github.com/RealUI
 baseurl: /
-version: 1.0.0
-
-author:
-  name: 'RealUI'
-  url: https://twitter.com/realuiwow
-
-excerpt_separator: <!--more-->
-paginate: 5
 
 repository: RealUI/RealUI.github.io
 exclude: [README.md, Gemfile, Gemfile.lock, serve.bat]
-theme: jekyll-theme-midnight
+remote_theme: mmistakes/jekyll-theme-basically-basic
+plugins:
+  - jekyll-feed
+
+email: realuiwow@gmail.com
+twitter_username: realuiwow
+github_username: RealUI
+feed:
+  path: atom.xml
 
 # GitHub defaults - configurable
 # github: [metadata]

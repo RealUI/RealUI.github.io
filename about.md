@@ -1,17 +1,13 @@
 ---
+layout: about
 title: About
 ---
 
-<p class="message">
-  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+A minimalistic UI designed to be functional, yet also efficient and elegant.
 
-## About BlackDoc Theme
+## History ##
+RealUI was originally created by Nibelheim aka Real, and published on WoW Interface during the Wrath of the Lich King expansion.
 
-Some relevant information about this project:
+Towards the beginning on Mists of Pandaria, some struggles in real life prevented Nibelheim from continuing to update the UI. Due to this, Gethe volunteered to fix RealUI so that it could at least survive the expansion launch.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
-* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
-* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
-
+While Nibelheim was able to come back for a bit after MoP launched, and made a fairly significant overhaul in that time. By the time Warlords of Dreanor came out though, real life had come around again and forced Nibelheim away for the game. At that point Gethe was given control of RealUI, and has been maintaining it ever since.

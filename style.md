@@ -42,7 +42,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
 
-![Small Test Image](https://distilleryimage8-a.akamaihd.net/2fbc48f2da2911e29e7122000aaa0fd8_7.jpg)
+![Small Test Image](https://placeimg.com/300/200/tech)
 
 Labore et dolore.
 
