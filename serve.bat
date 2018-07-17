@@ -1,2 +1,2 @@
-bundle exec jekyll serve
+bash -c "bundle exec jekyll serve"
 pause
